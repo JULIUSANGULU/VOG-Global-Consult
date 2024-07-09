@@ -1,0 +1,33 @@
+.navbar-container {
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F4858;
+    font-family: Poppins(Body);
+}
+
+.nav-logo {
+    height: 4rem;
+    margin: auto 0.1rem;
+}
+
+.nav-links {
+    display: flex;
+    margin: auto 0.1rem;
+    color: #eaedee;
+}
+
+.nav-link {
+    margin: 0rem 0.5rem;
+    padding: 0.5rem 0.4rem;
+}
+
+.back-nav-link {
+    border-radius: 0.5rem;
+    background-color: #6e886e;
+}
+
+.border-nav-link {
+    border-radius: 0.5rem;
+    border: #6e886e 0.1rem solid;
+}
