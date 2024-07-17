@@ -3,7 +3,7 @@ import "./navbar.css";
 import Logo from "../../Images/mainLogo.png";
 import { Link } from "react-router-dom";
 
-export const Navbar = ({ color }) => {
+export const BlogNavbar = ({ color }) => {
   return (
     <div>
       <div className="navbar-container">
@@ -12,15 +12,15 @@ export const Navbar = ({ color }) => {
         </div>
         <div className="nav-links">
           <Link to={"/"} className="navigation-links">
-            <div className="nav-link" style={{ color }}>
-              Home
-            </div>
+            <div className="nav-link">Home</div>
           </Link>
           <Link to={"/AboutUs"} className="navigation-links">
             <div className="nav-link">About Us</div>
           </Link>
           <Link to={"/Blog"} className="navigation-links">
-            <div className="nav-link">Blog</div>
+            <div className="nav-link" style={{ color }}>
+              Blog
+            </div>
           </Link>
           <Link to={"/OurApproach"} className="navigation-links">
             <div className="nav-link">Our Approach</div>
@@ -37,6 +37,6 @@ export const Navbar = ({ color }) => {
   );
 };
 
-Navbar.defaultProps = {
-  color: "#517151"
+BlogNavbar.defaultProps = {
+  color: "#517151",
 };

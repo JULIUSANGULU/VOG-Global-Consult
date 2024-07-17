@@ -17,6 +17,11 @@
     color: #eaedee;
 }
 
+.navigation-links {
+    text-decoration: none;
+    color: #eaedee;
+}
+
 .nav-link {
     margin: 0rem 0.5rem;
     padding: 0.5rem 0.4rem;
