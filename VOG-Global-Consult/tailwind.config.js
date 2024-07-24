@@ -14,6 +14,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                montserrat: ["Montserrat", "sans-serif"]
             },
             colors: {
                 'primary-50': '#e9ede9',
@@ -25,6 +26,7 @@ export default {
                 'primary-600': '#234723',
                 'primary-700': '#1b371b',
                 'primary-800': '#152b15',
+                'primary-900': '#102110',
                 'secondary-50': '#e6edee',
                 'secondary-100': '#b1c8c9',
                 'secondary-200': '#8badaf',
@@ -34,8 +36,17 @@ export default {
                 'secondary-600': '#02464b',
                 'secondary-700': '#01373a',
                 'secondary-800': '#012a2d',
-                'secondary-900': '#012a2d'
-
+                'secondary-900': '#012a2d',
+                'accent-50': '#eaedee',
+                'accent-100': '#bfc6cb',
+                'accent-200': '#9fabb2',
+                'accent-300': '#74848f',
+                'accent-400': '#596d79',
+                'accent-500': '#2f4858',
+                'accent-600': '#2b4250',
+                'accent-700': '#21333e',
+                'accent-800': '#1a2830',                
+                'accent-900': '#141e25',
             },
         },
     },
