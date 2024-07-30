@@ -1,6 +1,6 @@
 # VOG-Global-Consult-Landing-Page
 
-An intuitive website for a tax auditing firm.
+An intuitive landing page for a tax auditing firm, bootstrapped with ReactJS and Vite.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
