@@ -1,4 +1,6 @@
-# React + Vite
+# VOG-Global-Consult-Landing-Page
+
+An intuitive website for a tax auditing firm.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
