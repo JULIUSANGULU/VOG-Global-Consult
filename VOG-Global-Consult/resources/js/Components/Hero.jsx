@@ -1,7 +1,7 @@
 import React from "react";
-import HeroImage from "../assets/hero-image.png";
-import HeroBackground from "../assets/hero-background.png";
-import coin_icon from "../assets/coin.svg";
+// import HeroImage from "/assets/hero-image.png";
+// import HeroBackground from "/assets/hero-background.png";
+// import coin_icon from "/assets/coin.svg";
 
 const Hero = () => {
   return (
@@ -37,7 +37,7 @@ const Hero = () => {
               </svg>
             </button>
             <img
-              src={HeroImage}
+              src="/assets/hero-image.png"
               alt="Person"
               className="rounded-full w-64 h-64 object-cover lg:hidden mb-6 mx-auto"
             />
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-8 lg:mb-0">
             <img
-              src={coin_icon}
+              src="/assets/coin_icon.png"
               alt="Coins"
               className="hidden lg:block w-3/4"
             />

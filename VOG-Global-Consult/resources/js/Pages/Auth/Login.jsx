@@ -6,6 +6,7 @@ import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
 import PasswordIcon from '@/Components/PasswordIcon';
+import Hero from '@/Components/Hero';
 
 export default function Login({ status, canResetPassword }) {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -101,7 +102,7 @@ export default function Login({ status, canResetPassword }) {
                 </div>
 
                 <div className="flex items-center justify-center mt-4">
- 
+                
 
                     <PrimaryButton className="ms-4" disabled={processing}>
                         <svg className='w-48 h-14 md:w-72 md:h-20' viewBox="0 0 299 79" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,6 +117,7 @@ export default function Login({ status, canResetPassword }) {
                     </PrimaryButton>
                 </div>
             </form>
+            <Hero></Hero>
         </GuestLayout>
     );
 }

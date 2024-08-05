@@ -1,16 +1,16 @@
 import React from "react";
-import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
-import { FiImage } from "react-icons/fi";
-import Logo from "../assets/logo.svg";
-import eiza from "../assets/eiza.svg";
+// import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+// import { FiImage } from "react-icons/fi";
+// import Logo from "../assets/logo.svg";
+// import eiza from "../assets/eiza.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-center md:text-left pt-4">
-      <div className="container mx-auto px-6">
-        <div className="md:flex md:justify-between md:items-start space-y-6 md:space-y-0">
+    <footer className="bg-white text-center md:text-left ">
+      <div className="container mx-auto py-20 px-10">
+        <div className="flex justify-between items-start lg:grid grid-cols-4 gap-24">
           <div className="md:flex-1 md:max-w-xs mr-8">
-            <img src={Logo} alt="VOG Global" className="mx-auto md:mx-0" />
+            <img src="/assets/logo.svg" alt="VOG Global" className="mx-auto md:mx-0" />
             <p className="text-sm text-gray-700 mt-4">
               At VOG Global, we are committed to helping you achieve lasting
               success. Our comprehensive suite of services is designed to
@@ -18,9 +18,9 @@ const Footer = () => {
               complex business landscape.
             </p>
           </div>
-          <div className="md:flex-1">
-            <h3 className="text-lg font-semibold mb-2">Our Services</h3>
-            <ul className="text-sm text-gray-700">
+          <div className="md:flex-1 text-center  gap-[15px]">
+            <h3 className="text-[25px] text-gray-700 font-semibold mb-2">Our Services</h3>
+            <ul className="text-xl text-black leading-normal">
               <li>
                 <a href="#" className="hover:underline">
                   IT Audits
@@ -53,9 +53,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="md:flex-1">
-            <h3 className="text-lg font-semibold mb-2">VOG Global</h3>
-            <ul className="text-sm text-gray-700">
+          <div className="md:flex-1 text-center  gap-[15px]">
+            <h3 className="text-[25px] text-gray-700 font-semibold mb-2">VOG Global</h3>
+            <ul className="text-[20px] text-gray-700">
               <li>
                 <a href="#" className="hover:underline">
                   VOG Finance
@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="md:flex-1 md:max-w-xs">
+          <div className="md:flex-1 md:max-w-xs text-center  gap-[15px]">
             <h3 className="text-lg font-semibold mb-2">
               Subscribe To Our Newsletters
             </h3>
@@ -94,21 +94,21 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t mt-8 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-white bg-primary-500 w-full h-full">
-        <div className="flex items-center mb-4 md:mb-0">
-          <img src={eiza} className="mr-4 mb-8 ml-3" />
+        <div className="flex items-center justify-start mb-4 md:mb-0 px-3">
+          <img src="/assets/eiza.svg" className="mr-4 mb-8 ml-3" />
           <p className="text-lg mb-8 ">
             Designed and Built By Eiza Innovations
           </p>
         </div>
         <div className="flex space-x-4 mb-8 mr-2">
           <a href="#" className="hover:text-gray-900">
-            <FaLinkedin size={30} />
+            {/* <FaLinkedin size={30} /> */}
           </a>
           <a href="#" className="hover:text-gray-900">
-            <FaInstagram size={30} />
+            {/* <FaInstagram size={30} /> */}
           </a>
           <a href="#" className="hover:text-gray-900">
-            <FaTwitter size={30} />
+            {/* <FaTwitter size={30} /> */}
           </a>
         </div>
       </div>
